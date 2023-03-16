@@ -2,6 +2,7 @@
 
 let tBody = document.getElementById("output");
 let tr = document.createElement('tr');
+tr.id = "loading"
 let td = document.createElement('td');
 td.colSpan = "2";
 td.innerText = "Loading..."
